@@ -1,4 +1,3 @@
 # The-Spark-Foundation-Internship
 
-
-Here are two folder. Which are same. Main purpose of making this folder to deploy the model on streamlit server. I was facing %% not found error in streamlit.
+Hi friend, It is a score prediction system. It perdict the score of student based on the study hours of a student. 
