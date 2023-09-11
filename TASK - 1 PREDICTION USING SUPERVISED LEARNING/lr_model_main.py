@@ -33,8 +33,10 @@ def predict(study_time=0):
 
 
 ########################################################
-st.title('Student Scores Prediction')  ## title of app
-st.write("""This is a Student Score Predictor prject using Linear Regression Algorithm. """)   ### description for app
+st.title('Student Scores Prediction' )  ## title of app
+original_title = '<p style="font-family:Courier; color:#FCE300; font-size: 20px;">The Spark Foundation Internship Task - 1</p>'
+st.markdown(original_title, unsafe_allow_html=True)
+st.write("""This is a Student Score Predictor pròject using Linear Regression Algorithm. """)   ### description for app
 study_hour = st.number_input("Study Hours")
 
 ps = predict(study_time=study_hour)
